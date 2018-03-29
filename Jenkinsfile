@@ -8,14 +8,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building branch 2...'
+                echo 'Building branch 2....'
 				echo 'Adding more content...'
 				echo 'Still more'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing branch 2...'
+                echo 'Testing branch 2....'
 				echo 'Adding more test...'
 				echo 'Still more'
             }
